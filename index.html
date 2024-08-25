@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST.IO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <h1>POST.IO</h1>
+        <div>
+            <img src="https://cdn.head-fi.org/a/11520403.jpg" width="100%">
+        </div>
+    </nav>
+
+<div class = "container">
+        
+        <form class = "meta">
+            <h2>Generate Caption</h2>
+            <label for = "post">
+                <span>What is Post?</span>
+                <input type="text" id="post" name="post">
+                <button type="submit">Create Post</button>
+            </label>
+        </form>
+
+    <div class = "caption">
+        <p>Post Caption:</p>
+    </div>
+
+    <div class = "tags">
+        <p>Post Hashtags:</p>
+    </div>
+
+    <form class="image">
+        <h2>Generate Post</h2>
+        <label for = "genImage">
+            <span>Describe Post</span>
+            <input type="text" id="genImage" name="prompt">
+        </label>
+        <button type="submit">Generate Image</button>
+    </form>
+
+    <div class="actPost">
+        <img src="https://place-hold.it/512x512" alt="imagePost">
+    </div>
+
+</div> <!---container ends -->
+
+    <script src="index.js"></script>
+</body>
+</html>

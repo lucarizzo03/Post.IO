@@ -1,0 +1,106 @@
+body {
+    margin: 20;
+    font-size: 30;
+    font-family: monospace;
+    background-color: rgb(242, 239, 239);
+}
+
+p {
+    margin: 15;
+    padding: 10px;
+}
+
+.container {
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 30 auto;
+    overflow: hidden;
+    background: rgb(226, 9, 9);
+}
+
+.image {
+    background: rgb(226, 9, 9);
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 30 auto;
+    overflow: hidden;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav img {
+    max-width: 600px;
+    border-radius: 50px;
+}
+
+form * {
+    display: block;
+    margin: 40px auto;
+}
+
+.caption, .tags, .actPost {
+    background: white;
+    padding: 50px;
+    margin: 35px;
+    border-radius: 50px;
+}
+
+.actPost {
+    text-align: center;
+}
+
+.tags {
+    font-size: medium;
+    text-indent: -50px;
+}
+
+.caption {
+    font-size: medium;
+    text-indent: -50px;
+}
+
+span {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(245, 249, 249)
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgba(13, 142, 241, 0.835);
+    border-radius: 30px;
+    border: 0;
+    border-bottom: 10px solid;
+    border-left: 5px;
+    padding: 20px 40px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    top: 0;
+}
+
+button:active {
+    border-bottom-width: 10px;
+    top: 5px;
+}
+
+.actPost img {
+    max-width: 100%;
+}
+
+
+
+
+
+
